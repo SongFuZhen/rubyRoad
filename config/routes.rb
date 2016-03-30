@@ -1,5 +1,12 @@
 RubyRoad::Application.routes.draw do
-  get "welcome/index"
+
+  # 此处是article资源
+  resources :articles do
+    # 添加评论的路由  此处使用嵌套资源，表明文章和评论之间的层级关系
+    resources :comments
+  end
+
+  # get "welcome/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
