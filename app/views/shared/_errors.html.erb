@@ -1,0 +1,13 @@
+<% if object.errors.any? %>
+	<div class="panel panel-warning errors">
+		<div class="panel-heading">
+			<p><i class="glyphicon glyphicon-bullhorn" style="color: red;"></i> Found errors while saving</p>
+		</div>
+
+		<ul class="panel-body">
+			<% object.errors.full_messages.each_with_index do |msg, index| %>
+				<li><%=index+1 %> : <%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+<% end %>

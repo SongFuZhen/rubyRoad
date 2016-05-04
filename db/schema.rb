@@ -9,25 +9,24 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160330073748) do
+ActiveRecord::Schema.define(version: 20160430155610) do
 
-  create_table "articles", :force => true do |t|
-    t.string   "title"
-    t.text     "text"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table "user_sessions", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  create_table "comments", :force => true do |t|
-    t.string   "commenter"
-    t.text     "body"
-    t.integer  "article_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table "users", force: :cascade do |t|
+    t.string   "email",             limit: 255
+    t.string   "crypted_password",  limit: 255
+    t.string   "password_salt",     limit: 255
+    t.string   "persistence_token", limit: 255
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
-  add_index "comments", ["article_id"], :name => "index_comments_on_article_id"
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
 
 end

@@ -1,0 +1,2 @@
+module Shared::UserSessionHelper
+end
