@@ -14,8 +14,12 @@
 /log/*.log
 /tmp
 
-.idea
-
 .gitignore
 
 .DS_Store
+
+/.git
+
+/log
+
+/.idea
