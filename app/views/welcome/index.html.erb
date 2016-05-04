@@ -1,2 +1,9 @@
-<h1>Hello, Rails!</h1>
-<%= link_to 'Blog', controller: 'articles' %>
+<p>Hello,Marco! It's <%= Time.now %></p>
+
+<p><%= link_to 'Hello!', welcome_say_hello_path %></p>
+
+<p><%= link_to 'People', :controller => 'people', :action => 'index' %></p>
+
+<p><%= link_to 'Event', :controller => 'events', :action => 'index' %></p>
+
+<p><%= link_to 'Thing', :controller => 'things', :action => 'index' %></p>

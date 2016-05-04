@@ -1,0 +1,35 @@
+<%= link_to "New Things", :controller => 'things', :action => 'new' %>
+<br>
+<%= link_to "Back Welcome", :controller => 'welcome', :action => 'index' %>
+
+<br>
+<%= paginate @things %>
+
+<table class="table table-bordered table-hover">
+  <thead>
+  <tr>
+    <th>序号</th>
+    <th>名称</th>
+    <th>描述</th>
+    <th>数量</th>
+    <th>操作</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @things.each_with_index do |thing, index| %>
+      <tr>
+        <td><%= index+1 %></td>
+        <td><%= thing.name %></td>
+        <td><%= thing.description %></td>
+        <td><%= thing.amount %></td>
+        <td>
+          <%= link_to "查看", :controller => 'things', :action => 'show', :id => thing %>
+          <%= link_to "编辑", :controller => 'things', :action => 'edit', :id => thing %>
+          <%= link_to "删除", :controller => 'things', :action => 'destroy', :id => thing %>
+        </td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<%= paginate @things %>

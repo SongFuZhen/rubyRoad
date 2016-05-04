@@ -2,11 +2,828 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d81890-23f0-4795-9346-29bb170af1b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/articles.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/comments.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/articles.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/comments.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/comments_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/articles_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/comments_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/comment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comments/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/secret_token.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160330064236_create_articles.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160330073748_create_comments.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Actions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Actions/ActionCachePath.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Actions/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/ConfigMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Fragments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Pages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Pages/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Caching/Sweeping.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ConditionalGet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Cookies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/DataStreaming.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Flash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ForceSSL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ForceSSL/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Helpers/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HideActions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HideActions/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Basic/ControllerMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Basic/ControllerMethods/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Digest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Digest/ControllerMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Token.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/HttpAuthentication/Token/ControllerMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ImplicitRender.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Instrumentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Instrumentation/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/LogSubscriber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Metal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Middleware.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Middleware/ActionMiddleware.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/MimeResponds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/MimeResponds/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ParamsWrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/ParamsWrapper/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/RackDelegation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Railties.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Railties/Paths.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/RecordIdentifier.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Redirecting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Renderers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Renderers/All.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Renderers/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Rendering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/RequestForgeryProtection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/RequestForgeryProtection/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Rescue.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Responder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/SessionManagement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/SessionManagement/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Streaming.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TemplateAssertions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TestCase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TestCase/Behavior.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TestCase/Behavior/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TestCase/RaiseActionExceptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/TestResponse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/Testing/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionController/UrlFor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionMailer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionMailer/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/AssetPaths.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Context.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/FileSystemResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/FixtureResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/ActiveModelHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/ActiveModelInstanceTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/AssetIncludeTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/JavascriptIncludeTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/JavascriptTagHelpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/JavascriptTagHelpers/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/StylesheetIncludeTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/StylesheetTagHelpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AssetTagHelper/StylesheetTagHelpers/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AtomFeedHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AtomFeedHelper/AtomBuilder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/AtomFeedHelper/AtomFeedBuilder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/CacheHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/CaptureHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/CsrfHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/DateHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/DateHelperInstanceTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/DebugHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/FormBuilder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/FormHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/FormOptionsHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/FormTagHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/InstanceTag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/JavaScriptHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/NumberHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/NumberHelper/InvalidNumberError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/OutputSafetyHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/RecordTagHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/RenderingHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/SanitizeHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/TagHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/TextHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/TranslationHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Helpers/UrlHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/LogSubscriber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/LookupContext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/LookupContext/DetailsCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/LookupContext/ViewPaths.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/NullResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/PartialRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Renderer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Resolver.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Resolver/Path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Template/Handlers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Template/Handlers/Builder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Template/Handlers/ERB.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/Template/Handlers/Erubis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/TestCase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/TestCase/Behavior.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/TestCase/Behavior/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/TestCase/Behavior/Locals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActionView/TestCase/TestController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/AttributeMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/AttributeMethods/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/AttributeMethods/ClassMethods/AttributeMethodMatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/BlockValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Conversion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Dirty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/EachValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Errors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Lint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Lint/Tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/BlackList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/Error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/LoggerSanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/PermissionSet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/Sanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/StrictSanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MassAssignmentSecurity/WhiteList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/MissingAttributeError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Name.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Naming.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Observer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/ObserverArray.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Observing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Observing/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/SecurePassword.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/SecurePassword/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/SecurePassword/InstanceMethodsOnActivation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Serialization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Serializers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Serializers/JSON.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Serializers/Xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/StrictValidationFailed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Translation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/AcceptanceValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/Callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/Callbacks/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/ConfirmationValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/ExclusionValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/FormatValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/HelperMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/InclusionValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/LengthValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/NumericalityValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/PresenceValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validations/WithValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveModel/Validator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ActiveRecordError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AdapterNotFound.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AdapterNotSpecified.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Aggregations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Aggregations/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AssociationTypeMismatch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Associations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Associations/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeAssignment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeAssignment/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeAssignmentError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/BeforeTypeCast.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/DeprecatedUnderscoreRead.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/DeprecatedUnderscoreRead/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Dirty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/PrimaryKey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/PrimaryKey/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Query.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Read.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Read/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Serialization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Serialization/Attribute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Serialization/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/TimeZoneConversion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/TimeZoneConversion/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Write.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AttributeMethods/Write/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AutosaveAssociation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/AutosaveAssociation/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Batches.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Calculations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Coders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Coders/YAMLColumn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConfigurationError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/AbstractAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/AbstractMysqlAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/Column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/Column/Format.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/ConnectionHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/ConnectionManagement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/ConnectionPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/DatabaseLimits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/DatabaseStatements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/Mysql2Adapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/MysqlAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/MysqlAdapter/StatementPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter/StatementPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter/TableDefinition.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter/Utils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/PostgreSQLColumn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/QueryCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/Quoting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SQLiteAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SQLiteAdapter/ExplainPrettyPrinter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SQLiteAdapter/StatementPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SQLiteAdapter/Version.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SchemaCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/SchemaStatements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/StatementPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/Table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionAdapters/TableDefinition.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionNotEstablished.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ConnectionTimeoutError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/CounterCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/DangerousAttributeError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Delegation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/DynamicFinderMatch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/DynamicMatchers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/DynamicScopeMatch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Explain.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/FinderMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Fixtures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Fixtures/File.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/IdentityMap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/IdentityMap/Middleware.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Inheritance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Inheritance/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Integration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/InvalidForeignKey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/IrreversibleMigration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Locking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Locking/Optimistic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Locking/Optimistic/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Locking/Pessimistic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/LogSubscriber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Migration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Migration/CommandRecorder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/MigrationProxy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ModelSchema.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ModelSchema/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/MultiparameterAssignmentErrors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/NestedAttributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/NestedAttributes/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/NestedAttributes/TooManyRecords.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Observer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Persistence.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Persistence/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/PreparedStatementInvalid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/QueryCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/QueryCache/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/QueryMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Querying.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Railties.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Railties/ControllerRuntime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Railties/ControllerRuntime/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ReadOnlyRecord.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ReadonlyAttributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ReadonlyAttributes/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/RecordInvalid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/RecordNotFound.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/RecordNotSaved.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/RecordNotUnique.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Reflection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Reflection/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Reflection/MacroReflection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Relation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Rollback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Sanitization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Sanitization/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Schema.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping/Default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping/Default/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping/Named.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Scoping/Named/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Serialization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/SerializationTypeMismatch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/SessionStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/SessionStore/Session.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/SessionStore/SqlBypass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/SpawnMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/StaleObjectError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/StatementInvalid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Store.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Store/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/TestFixtures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/TestFixtures/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/ThrowResult.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Timestamp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Transactions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Transactions/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Translation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/UnknownAttributeError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/UnknownPrimaryKey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Validations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Validations/AssociatedValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Validations/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/Validations/UniquenessValidator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveRecord/WrappedDatabaseException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Connection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/CustomMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/CustomMethods/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Errors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Formats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Formats/JsonFormat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Formats/XmlFormat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/HttpMock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/InvalidRequestError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/LogSubscriber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Observing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Request.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Response.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/SSLError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/TimeoutError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveResource/Validations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Autoload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/BacktraceCleaner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Base64.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/BasicObject.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Benchmarkable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/BufferedLogger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/BufferedLogger/Severity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/Entry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/FileStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/MemCacheStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/MemoryStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/NullStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/Store.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/Strategy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/Strategy/LocalCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Cache/Strategy/LocalCache/LocalStore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Callbacks/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Concern.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Configurable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Configurable/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Configurable/Configuration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Dependencies.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Dependencies/ClassCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Dependencies/WatchStack.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Deprecation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/DescendantsTracker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Duration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/FileUpdateChecker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/FileWatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/FileWatcher/Backend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Gzip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Gzip/Stream.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/HashWithIndifferentAccess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Inflector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Inflector/Inflections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/InheritableOptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/JSON.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/JSON/Encoding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/JSON/Encoding/CircularReferenceError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/JSON/Encoding/Encoder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/JSON/Variable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/LogSubscriber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/LogSubscriber/TestHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/LogSubscriber/TestHelper/MockLogger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Memoizable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Memoizable/InstanceMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/MessageEncryptor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/MessageEncryptor/InvalidMessage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/MessageVerifier.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/MessageVerifier/InvalidSignature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte/Chars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte/EncodingError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte/Unicode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte/Unicode/Codepoint.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Multibyte/Unicode/UnicodeDatabase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Notifications/Event.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Notifications/Fanout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Notifications/Instrumenter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/OrderedHash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/OrderedOptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Rescuable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Rescuable/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/SafeBuffer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/SafeBuffer/SafeConcatError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/StringInquirer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/TaggedLogging.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/TestCase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Assertions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Declarative.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Isolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Isolation/Forking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Isolation/MiniTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Isolation/Subprocess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Isolation/TestUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Pending.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Benchmarker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/ForClassicTestUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/ForMiniTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/Amount.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/Base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/CpuTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/DigitalInformationUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/GcRuns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/GcTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/Memory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/Objects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/ProcessTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/Time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/UserTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Metrics/WallTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Performer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/Performance/Profiler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/ProxyTestResult.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/RemoteError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/SetupAndTeardown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/SetupAndTeardown/ClassMethods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/SetupAndTeardown/ForClassicTestUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/Testing/SetupAndTeardown/ForMiniTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/TimeWithZone.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/TimeZone.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/XmlMini.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/XmlMini_LibXMLSAX.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/XmlMini_LibXMLSAX/HashBuilder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/XmlMini_NokogiriSAX.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ActiveSupport/XmlMini_NokogiriSAX/HashBuilder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ArJdbcMySQL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ArJdbcMySQL/Error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Array.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Base64.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Benchmark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/BigDecimal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Class.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Date.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/DateTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ERB.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/ERB/Util.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Enumerable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/FalseClass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/File.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Float.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/FullSanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/LinkSanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/Sanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/Selector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/Tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/HTML/WhiteListSanitizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Hash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/I18n.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/I18n/ExceptionHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/I18n/Railtie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/IO.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Integer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Kernel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/LoadError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Logger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Logger/SimpleFormatter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Module.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Mysql.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Mysql/Result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Mysql/Stmt.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Mysql/Time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/NameError.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/NilClass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Numeric.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Object.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Process.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/QualifiedConstUtils.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/README_rdoc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Rails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Regexp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/String.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Symbol.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Test/Unit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Test/Unit/Collector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Test/Unit/Collector/ObjectSpace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/Time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/TrueClass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/URI.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/created.rid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/brick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/brick_link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/bug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/bullet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/bullet_toggle_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/bullet_toggle_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/date.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/loadingAnimation.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/macFFBgHack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/package.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/page_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/page_white_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/page_white_width.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/plugin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/ruby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/tag_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/tag_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/wrench.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/wrench_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/images/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/darkfish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/search_index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/js/searcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/rdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/api/table_of_contents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/2_2_release_notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/2_3_release_notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/3_0_release_notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/3_1_release_notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/3_2_release_notes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/_license.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/_welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/action_controller_overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/action_mailer_basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/action_view_overview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_model_basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_record_basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_record_querying.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_record_validations_callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_resource_basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/active_support_core_extensions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/api_documentation_guidelines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/asset_pipeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/association_basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/caching_with_rails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/command_line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/configuring.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/contributing_to_ruby_on_rails.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/credits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/debugging_rails_applications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/engines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/form_helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/generators.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/getting_started.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/i18n.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/belongs_to.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/book_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/challenge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/chapters_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/check_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/credits_pic_blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/csrf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/customized_error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/edge_badge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/feature_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/footer_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/fxn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/grey_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/habtm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/has_many.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/has_many_through.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/has_one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/has_one_through.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/header_backdrop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/header_tile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_html_safe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_localized_pirate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_translated_en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_translated_pirate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_translation_missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/i18n/demo_untranslated.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/callouts/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/caution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/important.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/note.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/tip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/icons/warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/jaimeiniesta.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/nav_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/polymorphic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/posts_index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/radar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/rails_guides_kindle_cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/rails_guides_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/rails_logo_remix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/rails_welcome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/session_fixation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_info.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_note.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_yellow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/tab_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/validation_error_messages.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/images/vijaydev.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/initialization.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/guides.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushAS3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushAppleScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushBash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushCSharp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushColdFusion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushCpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushCss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushDelphi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushDiff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushErlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushGroovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushJScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushJava.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushJavaFX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushPerl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushPlain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushPowerShell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushPython.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushRuby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushSass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushScala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushSql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushVb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shBrushXml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/javascripts/syntaxhighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/layouts_and_rendering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/migrations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/nested_model_forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/performance_testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/rails_application_templates.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/rails_on_rack.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/routing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/ruby_on_rails_guides_guidelines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/fixes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/kindle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/stylesheets/syntaxhighlighter/shThemeRailsGuides.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/guides/testing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/script/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/aritcles.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/articles.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/comments.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/aritcles_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/articles_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/comments_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/welcome_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/integration/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/performance/browsing_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/aritcle_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/article_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/comment_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/aritcles_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/articles_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/comments_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/welcome_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rubyRoad.iml" afterPath="$PROJECT_DIR$/.idea/rubyRoad.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__rubyRoad.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__rubyRoad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__rubyRoad.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__rubyRoad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__rubyRoad.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__rubyRoad.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__rubyRoad.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__rubyRoad.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/welcome.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path="rubyRoad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,100 +839,57 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="rubyRoad" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="comment.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1459325055000" expanded="true" signature="13:208" placeholder=" ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5480094">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-              <folding>
-                <marker date="1459325207000" expanded="true" signature="214:247" placeholder=" ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_comment.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="555">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <file leaf-file-name="events_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="486">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -127,6 +901,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Erb File.html" />
+        <option value="Erb File" />
       </list>
     </option>
   </component>
@@ -140,35 +915,54 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/say.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/people_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20160429055600_add_status_to_events.rb" />
+        <option value="$PROJECT_DIR$/app/models/event.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/views/events/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/things/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/things/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/things/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/things/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/things_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/things/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/people/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/events/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/events/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="1362" />
-    <option name="height" value="745" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -191,9 +985,13 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,38 +1007,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rubyRoad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyRoad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyRoad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyRoad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rubyRoad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,7 +1092,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="comments" />
+              <option name="myItemId" value="people" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,7 +1114,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
+              <option name="myItemId" value="events" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,8 +1188,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,6 +1196,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="event&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;rou&#9;FILE&#9;file:///home/if/git/rubyRoad/config/routes.rb&#10;things_cont&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/things_controller.rb&#10;index&#9;FILE&#9;file:///home/if/git/rubyRoad/app/views/events/index.html.erb&#10;ev&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;Ge&#9;FILE&#9;file:///home/if/git/rubyRoad/Gemfile&#10;eve&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;application.ht&#9;FILE&#9;file:///home/if/git/rubyRoad/app/views/layouts/application.html.erb&#10;_&#9;FILE&#9;file:///home/if/git/rubyRoad/app/views/events/_form.html.erb&#10;events_c&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;c&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;h&#9;FILE&#9;file:///home/if/git/rubyRoad/app/views/events/new.html.erb&#10;events/ind&#9;FILE&#9;file:///home/if/git/rubyRoad/app/views/events/index.html.erb&#10;events_&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/events_controller.rb&#10;rout&#9;FILE&#9;file:///home/if/git/rubyRoad/config/routes.rb&#10;event.r&#9;FILE&#9;file:///home/if/git/rubyRoad/app/models/event.rb&#10;schema_mi&#9;FILE&#9;file:///home/if/.rvm/gems/ruby-2.1.5/gems/activerecord-4.1.0/lib/active_record/schema_migration.rb&#10;ad_&#9;FILE&#9;file:///home/if/git/rubyRoad/db/migrate/20160429055600_add_status_to_events.rb&#10;co&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/welcome_controller.rb&#10;route&#9;FILE&#9;file:///home/if/git/rubyRoad/config/routes.rb&#10;router&#9;FILE&#9;file:///home/if/git/rubyRoad/config/routes.rb&#10;welc&#9;FILE&#9;file:///home/if/git/rubyRoad/app/controllers/welcome_controller.rb" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: rubyRoad">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -450,7 +1224,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
@@ -488,7 +1261,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
@@ -520,7 +1292,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
@@ -545,7 +1316,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
@@ -569,7 +1339,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
@@ -590,7 +1359,6 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
@@ -603,11 +1371,19 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -618,7 +1394,9 @@
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: rubyRoad" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -627,33 +1405,38 @@
       <changelist id="40d81890-23f0-4795-9346-29bb170af1b1" name="Default" comment="" />
       <created>1459316482185</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1459316482185</updated>
+      <workItem from="1461907494861" duration="16448000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16448000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1362" height="745" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19838275" sideWeight="0.49527666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771739" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25714287" sideWeight="0.50472337" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -672,202 +1455,291 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87289435">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06891271">
+        <state relative-caret-position="0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20160330064236_create_articles.rb" />
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb" />
+    <entry file="file://$PROJECT_DIR$/db/migrate/20160330073748_create_comments.rb" />
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb" />
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.091883615">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160330064236_create_articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/doc/api/images/plugin.png" />
+    <entry file="file://$PROJECT_DIR$/doc/api/images/find.png" />
+    <entry file="file://$PROJECT_DIR$/doc/api/Mysql/Time.html" />
+    <entry file="file://$PROJECT_DIR$/doc/api/I18n/Railtie.html" />
+    <entry file="file://$PROJECT_DIR$/doc/api/HTML/Tag.html" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/say.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8518519">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20160429053728_create_people.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/people_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/activerecord-4.1.0/lib/active_record/schema_migration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20160429055600_add_status_to_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/event.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="271" column="30" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="323" column="54" selection-start-line="323" selection-start-column="54" selection-end-line="323" selection-end-column="54" />
           <folding>
-            <element signature="e#98#689#0#ruby" expanded="false" />
+            <marker date="1461914727378" expanded="true" signature="251:255" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/things.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/person.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/thing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/things/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/things/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="73" selection-start-line="0" selection-start-column="73" selection-end-line="0" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/things/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/things/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/things_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/things/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/people/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20160330073748_create_comments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1459325055000" expanded="true" signature="13:208" placeholder=" ... end" />
+            <marker date="1461920001926" expanded="true" signature="31:633" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-          <folding>
-            <marker date="1459325207000" expanded="true" signature="214:247" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/api/images/plugin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/api/images/find.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/api/Mysql/Time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/api/I18n/Railtie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/api/HTML/Tag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7816377">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5480094">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
       </provider>

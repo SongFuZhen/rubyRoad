@@ -1,0 +1,21 @@
+<% if @event.errors.any? %>
+    <ul>
+      <% @event.errors.full_messages.each do |msg| %>
+          <li>
+            <%= msg %>
+          </li>
+      <% end %>
+    </ul>
+<% end %>
+
+<%= f.label :name, "Name" %>
+<%= f.text_field :name %> <br>
+
+<%= f.label :description, "Description" %>
+<%= f.text_field :description %> <br>
+
+<%= f.label :capacity, "Capacity" %>
+<%= f.text_field :capacity %> <br>
+
+<%= f.label :is_public, "Is Public" %>
+<%= f.select :is_public, [['否', 0], ['是', 1]] %> <br>

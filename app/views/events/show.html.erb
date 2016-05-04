@@ -1,0 +1,12 @@
+<%= @event.name %>
+
+<%= @event.description %>
+
+<!--simple_format 是内置的view helper  作用是将/n 转换为 <br/>-->
+<%= simple_format(@event.description) %>
+
+<%= @event.capacity %>
+
+<%= @event.is_public %>
+
+<p><%= link_to 'Back', events_path %></p>
