@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  subtitle: MyString
+  content: MyText
+  tag: MyString
+  readcount: 1
+  original: 
+  user_email: MyString
+  remark: MyString
+
+two:
+  title: MyString
+  subtitle: MyString
+  content: MyText
+  tag: MyString
+  readcount: 1
+  original: 
+  user_email: MyString
+  remark: MyString

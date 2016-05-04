@@ -1,26 +1,12 @@
-  Rails.application.routes.draw do
-
-
-  namespace :shared do
-    get 'user_session/index'
-  end
-
-  resources :welcome, only: [:index]
-
-  resources :users, only: [:new, :create]
-  resources :user_sessions, only: [:create, :destroy]
-
-  delete '/sign_out', to: 'user_sessions#destroy', as: :sign_out
-  get '/sign_in', to: 'user_sessions#new', as: :sign_in
-
-
-  # get 'welcome/index'
+Rails.application.routes.draw do
+  resources :articles
+  get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'shared/user_session#index'
+  root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

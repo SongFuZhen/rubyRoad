@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'New Article', new_article_path %>
+
+<% @articles.each do |article| %>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <div class="panel-title">
+          <h4><%= article.title %></h4>
+          <!--&emsp;&emsp;&emsp;&emsp;<p>&#45;&#45;<%= article.subtitle %></p>-->
+        </div>
+
+        <div class="pull-right">
+          <%= link_to content_tag(:i, "", :class => "glyphicon glyphicon-trash"), article %>
+          <%= link_to 'Edit', edit_article_path(article) %>
+          <%= link_to 'Destroy', article, method: :delete, data: {confirm: 'Are you sure?'} %>
+        </div>
+      </div>
+
+      <div class="panel-body">
+        <div class="content">
+          <%= article.content %>
+        </div>
+      </div>
+
+      <div class="panel-footer" style="height: 40px;">
+        <div class="pull-left">
+          <p class="tag label lable-primary"></p>
+        </div>
+        <div class="pull-right">
+          <p><%= article.created_at %> By <%= article.user_email %> </p>
+        </div>
+      </div>
+    </div>
+<% end %>
