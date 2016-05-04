@@ -10,8 +10,107 @@
     .navbar .nav > li:hover .dropdown-menu {
       display: block;
     }
-  </style>
 
+    .left {
+      float: left;
+      width: 19%;
+      border: 2px solid #104E8B;
+      overflow: hidden;
+      text-align: center;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .content {
+      float: left;
+      margin-left: 1%;
+      width: 60%;
+    }
+
+    .right {
+      float: left;
+      width: 19%;
+      /*border: 2px solid #104E8B;*/
+      overflow: hidden;
+      text-align: center;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    a:hover, a:link, a:visited {
+      text-decoration: none;
+      outline: none;
+      background: transparent;
+    }
+
+    .article {
+      margin-top: 20px;
+    }
+
+    .article-heading {
+      display: flex;
+      /*height: 40px;*/
+      font-size: 1.2em;
+      background: #104E8B;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: white;
+      padding: 5px 10px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .article-title {
+      display: flex;
+      width: 350px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .article-icon {
+      margin-left: 55%;
+      margin-top: 15px;
+      color: white;
+      display: flex;
+    }
+
+    .article-body {
+      border: 1px solid #104E8B;
+      height: 80px;
+      line-height: 60px;
+      padding: 10px 15px;
+      font-family: quendamedium;
+      font-size: 1.3em;
+    }
+
+    .article-footer {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: 1px solid #104E8B;
+      margin-top: -1px;
+      display: flex;
+      padding: 5px 10px;
+    }
+
+    .left-footer {
+      margin-top: 10px;
+      font-size: 1.4em;
+      width: 400px;
+    }
+
+    .left-footer > p {
+      cursor: pointer;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 50px;
+    }
+
+    .right-footer {
+      margin-top: 10px;
+      margin-left: 30%;
+    }
+  </style>
 </head>
 <body>
 
@@ -62,7 +161,7 @@
         <!--<li><a href="#">Link</a></li>-->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <i class="glyphicon glyphicon-user" style="color: lightseagreen;"></i>
+            <i class="glyphicon glyphicon-user" style="color: #104E8B;"></i>
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Profile</a></li>
@@ -77,7 +176,16 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<%= yield %>
+<div class="left">
+</div>
+
+<div class="content">
+  <%= yield %>
+</div>
+
+<div class="right">
+
+</div>
 
 </body>
 </html>

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'edelsansregular';
+    src: url('/assets/edelsans/edelsans_regular-webfont.eot');
+    src: url('/assets/edelsans/edelsans_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/edelsans/edelsans_regular-webfont.woff2') format('woff2'),
+    url('/assets/edelsans/edelsans_regular-webfont.woff') format('woff'),
+    url('/assets/edelsans/edelsans_regular-webfont.ttf') format('truetype'),
+    url('/assets/edelsans/edelsans_regular-webfont.svg#edelsansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quendamedium';
+    src: url('/assets/edelsans/quenda-medium.eot');
+    src: url('/assets/edelsans/quenda-medium.eot?#iefix') format('embedded-opentype'),
+    url('/assets/edelsans/quenda-medium.woff2') format('woff2'),
+    url('/assets/edelsans/quenda-medium.woff') format('woff'),
+    url('/assets/edelsans/quenda-medium.ttf') format('truetype'),
+    url('/assets/edelsans/quenda-medium.svg#quendamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'paleblueyes';
+    src: url('/assets/pale-blue/pale-blue-eyes.eot');
+    src: url('/assets/pale-blue/pale-blue-eyes.eot?#iefix') format('embedded-opentype'),
+    url('/assets/pale-blue/pale-blue-eyes.woff2') format('woff2'),
+    url('/assets/pale-blue/pale-blue-eyes.woff') format('woff'),
+    url('/assets/pale-blue/pale-blue-eyes.ttf') format('truetype'),
+    url('/assets/pale-blue/pale-blue-eyes.svg#quendamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'willgraceregular';
+    src: url('/assets/willg/willg___.eot');
+    src: url('/assets/willg/willg___.eot?#iefix') format('embedded-opentype'),
+    url('/assets/willg/willg___.woff2') format('woff2'),
+    url('/assets/willg/willg___.woff') format('woff'),
+    url('/assets/willg/willg___.ttf') format('truetype'),
+    url('/assets/willg/willg___.svg#willgraceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

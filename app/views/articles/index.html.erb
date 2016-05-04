@@ -1,34 +1,44 @@
 <p id="notice"><%= notice %></p>
 
-<%= link_to 'New Article', new_article_path %>
+<div class="panel panel-success">
+  <div class="panel-body" style="display: flex;">
+    <h4>Hello guy,You can Add Article Here.</h4>
+    <%= link_to 'New Article', new_article_path, :class => 'btn btn-default', :style => 'background:lightblue;padding-top:8px;margin-left:55%;width:200px;' %>
+  </div>
+</div>
 
 <% @articles.each do |article| %>
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">
+    <div class="article">
+      <div class="article-heading">
+        <div class="article-title">
           <h4><%= article.title %></h4>
-          <!--&emsp;&emsp;&emsp;&emsp;<p>&#45;&#45;<%= article.subtitle %></p>-->
-        </div>
+          <% if article.subtitle == nil %>
 
-        <div class="pull-right">
-          <%= link_to content_tag(:i, "", :class => "glyphicon glyphicon-trash"), article %>
-          <%= link_to 'Edit', edit_article_path(article) %>
-          <%= link_to 'Destroy', article, method: :delete, data: {confirm: 'Are you sure?'} %>
+          <% else %>
+              &emsp; <h4>--<%= article.subtitle %></h4>
+          <% end %>
+        </div>
+        <div class="article-icon">
+          <%= link_to content_tag(:i, "", :class => "glyphicon glyphicon-eye-open", :style => 'color:white;'), article %>
+
+          <%= link_to content_tag(:i, "", :class => 'glyphicon glyphicon-edit', :style => 'color:white;margin-left:20px;'), edit_article_path(article) %>
+
+          <%= link_to content_tag(:i, "", :class => 'glyphicon glyphicon-trash', :style => 'color:white;margin-left:20px;'), article, method: :delete, data: {confirm: '要删除此篇文章么?'} %>
         </div>
       </div>
-
-      <div class="panel-body">
-        <div class="content">
-          <%= article.content %>
-        </div>
+      <div class="article-body">
+        <%= article.content %>
       </div>
-
-      <div class="panel-footer" style="height: 40px;">
-        <div class="pull-left">
-          <p class="tag label lable-primary"></p>
+      <div class="article-footer">
+        <div class="left-footer">
+          <% article.tag.split(',').each do |tags| %>
+              <p class="label label-primary"><%= tags %></p>
+          <% end %>
         </div>
-        <div class="pull-right">
-          <p><%= article.created_at %> By <%= article.user_email %> </p>
+        <div class="right-footer">
+          <p><%= article.created_at %>
+            <strong style="font-weight: bold;font-size: 1.1em;color: red;">By</strong> <%= article.user_email %>
+          </p>
         </div>
       </div>
     </div>
